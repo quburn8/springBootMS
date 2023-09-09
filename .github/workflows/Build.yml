@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Now testing build for windows"
-      - uses: ./.github/workflows/Testing.yml
+      - uses: ./ .github/workflows/Testing.yml
       

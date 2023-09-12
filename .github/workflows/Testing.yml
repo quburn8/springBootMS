@@ -11,8 +11,5 @@ jobs:
     - run: echo "Now Running the deployment job"
   
   Deployment-on-Windows:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Now Deploying build for windows"
-      - uses: ./.github/workflows/Deployment.yml
+    uses: ./.github/workflows/Deployment.yml
 

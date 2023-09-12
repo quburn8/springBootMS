@@ -7,6 +7,7 @@ class Hello
 
 
 		System.out.println("Hello World Task 2 created and done.");
+		System.out.println("Directly added from UI");
 
 	}
 }

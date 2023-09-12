@@ -10,9 +10,5 @@ jobs:
     - run: echo "Now Running the testing job"
   
   Testing-on-Windows:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: echo "Now testing build for windows"
-      - uses: ./.github/workflows/action.yml
+    uses: ./.github/workflows/action.yml
       
